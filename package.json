@@ -1,0 +1,20 @@
+{
+  "name": "Lift",
+  "version": "0.0.1",
+  "description": "",
+  "authors": [
+    "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "phantomjs": "1.9.2-1"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0",
+    "coffee-script": "~1.6.3",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-cli": "~0.1.9",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}

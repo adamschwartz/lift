@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Lift",
+    "description": "Lift PNGs from DOM objects.",
+    "version": "0.1",
+    "content_scripts": [{
+        "js": ["contentscript.js"],
+        "matches": ["*://localhost/*"]
+    }],
+    "permissions":[
+        "tabs",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "web_accessible_resources": [
+        "script.js"
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
